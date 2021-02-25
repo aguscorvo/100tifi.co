@@ -1,5 +1,5 @@
-const Header = (){
-    const view = `
+const Header = () => {
+  const view = `
     <div class="Header-main">
         <div class="Header-logo">
             <h1><a href="/">100tifi.co</a></h1>
@@ -9,7 +9,7 @@ const Header = (){
         </div>
     </div>
     `;
-    return view;
-}
+  return view;
+};
 
 export default Header;
